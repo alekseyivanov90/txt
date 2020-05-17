@@ -1,11 +1,12 @@
 var app = require('express')();
 // var http = require('http').Server(app);
+const PORT = process.env.PORT || 80
+
 app.listen(PORT, function(){
    // console.log('listening on *:3000');
 });
 
 var io = require('socket.io')(app);
-const PORT = process.env.PORT || 80
 
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/index.html');
