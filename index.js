@@ -4,9 +4,9 @@ var app = express();
 const PORT = process.env.PORT || 80
 
 app.listen(PORT);
-/*
-app.use('/file', express.static('file'));
 
+// app.use('/file', express.static('file'));
+/*
 var server = require('https').createServer(app);
 var io = require('socket.io').listen(server);
 
