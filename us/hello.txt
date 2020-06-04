@@ -1,8 +1,0 @@
-mstr.unshift('1 рублей за выступление в груп');
-mssl.unshift('https://cashbox.ru/r/a1d98b922d284746ad681f10ba47f71a');
-mstr.unshift('opisanie'); 
-mssl.unshift('http:/ssylka.ru'); 
-mstr.unshift('polwchilos'); 
-mssl.unshift('qwwweerw'); 
-mstr.unshift('Знакомство без регистрации'); 
-mssl.unshift('https://znakomstvo.herokuapp.com/'); 
