@@ -1,5 +1,5 @@
 var express = require('express');
-var cors = require('cors');
+// var cors = require('cors');
 var app = express();
 var fs = require('fs');
 var bodyParser = require('body-parser');
@@ -13,11 +13,11 @@ app.use('/us', express.static('us'));
 app.get('/', function(request, respons) {
 	respons.sendFile(__dirname + '/index.html');
 });
-
+/*
 app.get('/dlialogera', cors(), function(request, respons) {
 	respons.redirect("https://iplogger.org/1RJCa7");
 });
-
+*/
 app.get('/go', function(request, respons) {
 	respons.sendFile(__dirname + '/go.html');
 });
